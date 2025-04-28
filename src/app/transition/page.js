@@ -141,13 +141,7 @@ console.log("Sorted by Credit Amount:", newArray_transition);
              <Link href={'/transition/add-Transition'} className="px-[28px] py-[10px] rounded-lg bg-blue-600 text-white font-semibold">Add Transition</Link>
  
           </div>
-          {/* catagorywise  */}
-          <div className="flex items-center justify-around pb-[4vh] gap-4 flex-wrap"> 
-          <button className="px-3 py-1 rounded-xl bg-blue-600 text-white text-[.7vw] my-[.5vh]" onClick={() => { handelCataory('credit') }}>Max Transition</button>
-          <button className="px-3 py-1 rounded-xl bg-blue-600 text-white text-[.7vw] my-[.5vh]" onClick={() => { handelCataory('credit') }}>Recent Transition</button>
-          <button className="px-3 py-1 rounded-xl bg-blue-600 text-white text-[.7vw] my-[.5vh]" onClick={() => { handelCataory('credit') }}>min Transition</button>
-                         
-          </div>
+          
 
           {/* Table */}
           <div className="overflow-x-auto self-center">

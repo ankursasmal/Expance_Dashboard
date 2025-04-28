@@ -112,12 +112,12 @@ return s;
 :    <div className='flex flex-col'> 
 
     <div className='w-[100vw] self-center mt-[2vw] flex flex-col items-center'>
-      <span className='text-[3vw] font-semibold text-blue-600'>Monthly Debt Bar Chart</span> 
+      <span className='text-[3vw] font-semibold text-blue-600'>Monthly Cradit Bar Chart</span> 
     <MonthlyExpensesChart expance={expance}  TransitonTyppe='credit'/>
     </div>
 
     <div className='w-[100vw] self-center mt-[2vw] flex flex-col items-center'>
-      <span className='text-[3vw] font-semibold text-blue-600'>Monthly Debt Pie Chart</span> 
+      <span className='text-[3vw] font-semibold text-blue-600'>Monthly Cradit Pie Chart</span> 
     <MonthlyExpensesPieChart expance={expance}  TransitonTyppe='credit'/>
     </div>
     </div>
