@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ 
+```markdown
+# Expense Dashboard
 
-## Getting Started
+This is an **Expense Dashboard** application built using **Next.js** and **Tailwind CSS**, with features such as **Transition History**, **Add/Edit Transition**, **Credit and Debit Balance**, and visualizations like **Bar Charts** and **Pie Charts** using **Recharts**.
 
-First, run the development server:
+## Features
+
+- **Transition History**: View a detailed history of all transactions (credit and debit).
+- **Add/Edit Transition**: Add new transactions or edit existing ones.
+- **Credit and Debit Balance**: View and manage your total credit and debit balance.
+- **Bar Chart**: Visualize credit/debit transitions using a bar chart.
+- **Pie Chart**: View the distribution of credit and debit using a pie chart.
+
+## Technologies Used
+
+- **Next.js**: A React framework for building server-side rendered (SSR) applications.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
+- **Recharts**: A charting library built with React for rendering charts like bar and pie charts.
+- **JavaScript (ES6+)**: Modern JavaScript for functionality and logic.
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone  https://github.com/ankursasmal/Expance_Dashboard.git
+   ```
+
+ 
+   
+3. Install the necessary dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
+
+ 
+## How to Use
+
+### Transition History
+
+On the **dashboard page**, you will see a table displaying the transition history with details like **Date**, **Description**, **Debt**, and **Credit**. You can sort the history by date or credit amount.
+
+### Add/Edit Transition
+
+- To add a new transition, click on the **Add Transition** button.
+- You will be redirected to the **Add Transition** page, where you can input the **date**, **description**, **debt**, and **credit**.
+- To edit a transition, click on the **Edit** button next to any transition, and you will be able to update the transition details.
+
+### Credit and Debit Balance
+
+The dashboard will display the **total credit** and **total debit** balances, helping you track your finances.
+
+### Bar Chart
+
+You can visualize your credit/debit transactions with a **bar chart**. The chart displays the **credit** on the positive side and **debit** on the negative side.
+
+### Pie Chart
+
+The pie chart shows the distribution of **credit** and **debit** transactions as percentages, helping you understand your expenses and income distribution.
+
+## Example
+
+Once the server is running, you can navigate through the app as follows:
+
+1. **Dashboard**: The main page displaying the transition history, credit/debit balance, bar chart, and pie chart.
+2. **Add/Edit Transition**: Forms to add or edit transactions with date, description, debt, and credit.
+
+## Development
+
+To start the development server, run:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, open your browser and navigate to `http://localhost:3000` to view the dashboard.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ 
